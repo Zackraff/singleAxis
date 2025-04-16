@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/styles/style.css" />
+    <title>Monitoring Panel Surya</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Monitoring Single-Axis Solar Tracker</h1>
+    </header>
+
+    <main>
+      <!-- Section Monitoring -->
+      <section class="monitoring">
+        <!-- Lux Sensor -->
+        <div class="BH1750">
+          <h2>Sensor BH1750 & Posisi Servo</h2>
+          <div class="sensor-card">
+            <div class="card">
+              <p>Waktu: <span id="timestamp">-</span></p>
+            </div>
+          </div>
+          <div class="sensor-card">
+            <div class="card">
+              <p>Sensor Cahaya Kiri: <span id="varLuxLeft">-</span> lux</p>
+            </div>
+          </div>
+          <div class="sensor-card">
+            <div class="card">
+              <p>Sensor Cahaya Kanan: <span id="varLuxRight">-</span> lux</p>
+            </div>
+          </div>
+          <div class="sensor-card">
+            <div class="card">
+              <p>Posisi Servo: <span id="varPositionServo">-</span> Derajat</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Voltage, Current, Power, and Energy -->
+        <div class="PZEM017">
+          <h2>Sensor PZEM017</h2>
+          <div class="sensor-card">
+            <div class="card">
+              <p>Voltage: <span id="voltage">-</span> V</p>
+            </div>
+          </div>
+          <div class="sensor-card">
+            <div class="card">
+              <p>Current: <span id="current">-</span> A</p>
+            </div>
+          </div>
+          <div class="sensor-card">
+            <div class="card">
+              <p>Power: <span id="power">-</span> W</p>
+            </div>
+          </div>
+          <div class="sensor-card">
+            <div class="card">
+              <p>Energy: <span id="energy_calc">-</span> Wh</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Data Results -->
+      <section class="dataResults">
+        <h2>Hasil Data Monitoring</h2>
+        <div class="export-container">
+          <button class="export-btn" id="export-btn" onclick="exportToCSV()">Export Data</button>
+        </div>
+        <table border="1" id="data-table">
+          <thead>
+            <tr>
+              <th>Waktu</th>
+              <th>Lux Kiri</th>
+              <th>Lux Kanan</th>
+              <th>Posisi Servo</th>
+              <th>Voltage (V)</th>
+              <th>Current (A)</th>
+              <th>Power (W)</th>
+              <th>Energy (Wh)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Data akan ditampilkan di sini -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <h1>Zaki Rafi Athallah</h1>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/scripts/script.js"></script>
+  </body>
+</html>

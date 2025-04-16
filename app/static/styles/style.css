@@ -1,0 +1,167 @@
+/* General Body Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Header */
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 15px 8px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Main Content Area */
+main {
+  margin: 0 5rem;
+}
+
+/* Monitoring Section */
+.monitoring {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  margin-bottom: 1rem;
+}
+
+/* Sensor Data Cards */
+.BH1750,
+.PZEM017 {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  color: white;
+  width: 500px;
+  text-align: left;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.BH1750:hover,
+.PZEM017:hover {
+  transform: scale(1.05);
+}
+
+/* Sensor Titles */
+h2 {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Sensor Paragraphs */
+p {
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* Sensor Cards */
+.sensor-card {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  width: 400px;
+  text-align: left;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.monitoring .card p {
+  margin: 10px 0;
+}
+
+/* Data Table */
+.dataResults {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 2px solid white;
+  text-align: center;
+}
+
+th {
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Container untuk tombol export */
+.export-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+/* Tombol export */
+.export-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.export-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  font-size: 8px;
+  margin-top: auto;
+}

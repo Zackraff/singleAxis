@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "project-iot-zaki",
+  "private_key_id": "3211972fde889b1abfb8da295c2a8d3f8701b7ab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCxG96UZctnAiXv\nmlbBkhK5yUco3oMtVSO1yK0UkH7d/Z7i5fgbti1OTPbhuENhFeBvi3WyC5hIulyg\nrSFV3BTa021jCYbYT8gtsoJb1l+dbJJ2fn0FyRd5LRxITYTzqz31HsTaMhK9TVS0\nKpmxfEBbCC4m7PrdZEZLHomJ6WNXpTie+AlYl7RBRjnZ6bY0N3uJD4V9HGgOBui4\npSmkc2JvYqPCF56MGnJw9hEt4Ksg9c+3kZOF7QbEkwc7ZCoCa9MOCJH0TkJVqEiJ\nNorfruFm2OPpcs9CAafPjpZU3DLN8xBEqTVv4qxyMHUuorDoIKcy+ylBQ7+ELbFb\nKyqzLlPJAgMBAAECggEABT3JZwPiMqC2JbKgGadshXIG+JcpM6i+30zajm6+SmyM\njLN4lb1c9uHBNqng2JkwpKxwZb4BGjnlrt2gzG0wcs9p/9HS20j1KCENyZD9EGgb\np4UTxx2N48ipexxMMHfjZAMumTR9KHwG4zQVi1KdhvQlhYJi5DVo/SUgteOhzICr\nH/YOQHBqbvzI7E44I58iKD/17iHj4KqlTNmKsIpg7e6C6FC8tSzX7hccEX8NOIkP\nWVDMKOaoi4A7cVvFWablYuk+k2hsNSV1/5CWyAp2S6IxwJXUTeJ2WedcmR/pcV7X\n4ZvSxCFmw86Hldp7Q4jQZbuGsiMrGsu8x0Wv8ebmhwKBgQDe+b6BvfcSMjRjBMwz\nf/+1L23nftCbCU/bM8DIno0jABlqAci7TClr1tVZlbOUUVNc/n2VQgcs1ro1DZ6E\nGBDeA6bDdgvC7LGrpNeAzJp8H3c4FpQw/B4x242QQ4UscZ5oRNxDjM7rueK2ltPR\nrlcFvP1jlbqdOjSjHcnQENQIrwKBgQDLVw+o7tEXWOQMrHFVUcgBkHVxGoARlMg3\nXIXu1qMRQyRru7w9nEOB5F5WPFv734CsWq8WhpQF3JXXlBqwnfcImddIK6HpyX5q\nEksQECTIyex6Boi0nhcruZGwAp8VgKgsqIa9wYdkbfPwCivHh+rFF8Iv1i/w3MUK\naSPy4EcZBwKBgBMX98RMbBfWzL2d746Ja3Ase5DTPzHHflsa92s2iIdyvrphJLtF\nLlbZsrNVKmeM/0J7WG2rlcm1KYTZgbV2Chu43FLojOFIO36jQwD4hFIUr7TR2ibH\nsB482sZ7wa+omxP6sZHnQODWrh9Mkx7levY21MvuSmikT1WYe2uhxUZpAoGANLx2\npkSR2/FE6/iJSCx2p9k0bEoILwccSidn4QKvthlox7wf3Qa7B2QYB1uOK6vSrmCy\nijALEd4cypVxup6tZACqMeCHFKAadh4ac6cMMzsTZq5tJBLgRYnSPAjiA2yjsTlg\nALTBjY1qt7WblxssC0PXLBrrwhcvzzxng2Uha18CgYBpnmAS+0XxC+H6k8AQLYtT\neipmE744T6dHuhepYMxMCVyrhDtzljqLFPh5Rh3CWQ+iDOeDmZ6ymNZouBhiPfgB\nMMmEBoHmR0bX1u6q1yIXlbfa5lXXGZagTqsEoVFirjocINsbUR/C59OUsK9J6SXc\nDpKcVHVSVtQyVEpdDimjHw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@project-iot-zaki.iam.gserviceaccount.com",
+  "client_id": "117175298546465036840",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40project-iot-zaki.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
